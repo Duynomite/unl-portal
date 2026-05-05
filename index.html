@@ -1297,7 +1297,7 @@
             choices: [
               { id: 'cl-co-1', text: "Yeah, that's the real concern most folks have — the burden falls on family even when there's no choice. So if there were a way to handle exactly what we just talked about — care at home if you needed it, $3,500 paid directly to Jessica if she stepped up to help, and to do it without burning through your savings — would that be worth a couple minutes to walk through? *[after yes]* So based on what you just told me — staying home matters, Jessica's the one who'd step up, you don't want her losing income or you burning through what you've saved — there's a Home Healthcare insurance plan that handles exactly that situation. Three things it does. First — $100,000 of home healthcare benefits if you ever needed care. Nursing, therapies, home aides, up to 360 days. Second — $3,500 paid directly to Jessica, in her own pocket, if she's the one caring for you. Up to twice in your lifetime. Third — there's a prescription benefit built into the plan: $25 back per brand fill, $10 per generic, capped at $600 a year. Does that match what you were hoping for? *[after yes]* On premium — bear with me, gross first then the math that matters. For someone your age in Georgia, the plan typically runs around $50-65 a month. Now here's the part that surprises folks: since you're already taking 4 prescriptions including Eliquis, that prescription benefit covers most of the premium back. Real cost ends up around $3-5 a month for someone in your situation. So to recap — for $3-5 a month real cost, $100,000 of home healthcare protection, $3,500 directly to Jessica if she ends up caring for you, and the prescription benefit covering most of the premium. Sound fair?", quality: 'best', response: "$3-5 a month? After the prescription benefit covers it? That sounds almost too good. So the prescription benefit alone covers the premium because I'm already paying for those prescriptions anyway?", coaching: "Full Solution Awareness bridge → anchored Presentation → math with pre-frame and ranges → summary. Notice every move references HIS specific words (staying home, Jessica, savings concern). The math pre-frame ('bear with me, gross first then the math that matters') mitigates sticker shock when $50-65 lands. Premium quoted as RANGE ($50-65, not $54.20) — defensible if actual quote varies. Carl's response confirms the framing landed: he's articulating the math himself ('the prescription benefit covers it because I'm already paying anyway'). That's the close." },
               { id: 'cl-co-2', text: "It's just $3.50 a month. You'd be crazy not to take this.", quality: 'off-rail', response: "$3.50? That doesn't sound right for any kind of insurance. And what do you mean 'crazy not to'? I haven't even seen what it covers.", coaching: "Quoted a point estimate ($3.50) instead of a range — sets up credibility break if actual quote runs higher. Skipped the value pitch (HHC, $3,500 caregiver, prescription benefit). 'You'd be crazy not to' is high-pressure language — exactly what general benefit inbound prospects hang up on." },
-              { id: 'cl-co-3', text: "Premium runs about $54 a month, but after the prescription benefit you're at like $3.50/month real cost. $50K in home healthcare benefits, the caregiver thing, prescription savings. Want to move forward?", quality: 'off-rail', response: "Wait, you said $50K? I thought it was $100,000. Hold on, what's the actual amount?", coaching: "Got the math direction but THREE problems: (1) point estimates, not ranges; (2) feature-dump tone instead of anchored framing; (3) wrong HHC benefit number ($50K is Plan A, not Plan B). With 4 meds + Eliquis, Carl fits Plan B ($100K). Match the tier to the prescription profile — Section 1.6." },
+              { id: 'cl-co-3', text: "Premium runs about $54 a month, but after the prescription benefit you're at like $3.50/month real cost. $50K in home healthcare benefits, the caregiver thing, prescription savings. Want to move forward?", quality: 'off-rail', response: "Wait, you said $50K? I thought it was $100,000. Hold on, what's the actual amount?", coaching: "Got the math direction but THREE problems: (1) point estimates, not ranges; (2) feature-dump tone instead of anchored framing; (3) wrong HHC benefit number ($50K is Plan A, not Plan B). With 4 meds + Eliquis, Carl fits Plan B ($100K). Match the tier to the prescription profile — Section 1.7." },
               { id: 'cl-co-4', text: "So based on what you said — wanting to stay home, Jessica's situation, your savings — there's a Home Healthcare plan that fits. About $50-65/month for the plan, but after the prescription benefit, real cost is more like $3-5/month. $100,000 of home healthcare, $3,500 to Jessica if she's caring for you, prescription benefit. Sound fair?", quality: 'better', response: "That sounds reasonable. Let me think about it.", coaching: "Anchored opening (mentioned his words), correct ranges, three-bullet structure, soft close. Missing: the math pre-frame (bears with me, gross first), the validation check at the seam ('does that match what you were hoping for?'), and the recap at the end. Functional but less powerful than co-1." },
             ],
           },
@@ -1478,11 +1478,12 @@
         sections: [
           { id: '1.1', title: 'What is Hospital Indemnity?',          estimatedMin: 15, type: 'reading',   built: true  },
           { id: '1.2', title: 'What is Home Healthcare with TCare?',  estimatedMin: 15, type: 'reading',   built: true  },
-          { id: '1.3', title: 'Why your prospect needs these',        estimatedMin: 25, type: 'reading',   built: true  },
-          { id: '1.4', title: 'HI Shield in detail',                  estimatedMin: 20, type: 'reading',   built: true  },
-          { id: '1.5', title: 'HHC + TCare in detail',                estimatedMin: 20, type: 'reading',   built: true  },
-          { id: '1.6', title: 'Prescription reimbursement deep-dive', estimatedMin: 15, type: 'reading',   built: true  },
-          { id: '1.7', title: 'Foundation Mastery Quiz',              estimatedMin: 15, type: 'gate-quiz', built: true,  gateFor: 'foundation' },
+          { id: '1.3', title: 'The Medicare HHC Gap',                 estimatedMin: 15, type: 'reading',   built: true  },
+          { id: '1.4', title: 'Why your prospect needs these',        estimatedMin: 25, type: 'reading',   built: true  },
+          { id: '1.5', title: 'HI Shield in detail',                  estimatedMin: 20, type: 'reading',   built: true  },
+          { id: '1.6', title: 'HHC + TCare in detail',                estimatedMin: 20, type: 'reading',   built: true  },
+          { id: '1.7', title: 'Prescription reimbursement deep-dive', estimatedMin: 15, type: 'reading',   built: true  },
+          { id: '1.8', title: 'Foundation Mastery Quiz',              estimatedMin: 15, type: 'gate-quiz', built: true,  gateFor: 'foundation' },
         ],
       },
       {
@@ -4011,7 +4012,7 @@
               <li className="bg-white border border-light-cyan rounded-lg p-4">
                 <div className="font-heading font-semibold text-secondary mb-1">Healthy enough to qualify, but with normal age-related risk</div>
                 <p className="text-text text-sm leading-relaxed">
-                  HI has health knockouts (we'll cover those in detail in Section 1.4). The product isn't designed for someone
+                  HI has health knockouts (we'll cover those in detail in Section 1.5). The product isn't designed for someone
                   who's already in serious medical decline — but it's perfectly designed for the typical 65-to-75-year-old
                   who's reasonably healthy now and wants protection if their luck changes.
                 </p>
@@ -4125,7 +4126,7 @@
                 <li>
                   <span className="font-heading font-semibold text-secondary">3. Prescription reimbursement.</span>{' '}
                   $10 back per generic fill, $25 back per brand fill, capped at $300/$600/$900 per year by tier. Submitted
-                  by the member with receipts. We'll cover this in Section 1.6 — it's the single most powerful framing tool
+                  by the member with receipts. We'll cover this in Section 1.7 — it's the single most powerful framing tool
                   you'll have on a call.
                 </li>
                 <li>
@@ -4216,7 +4217,7 @@
                   cost-of-care concern, preference for staying home) AND prescriptions that fund the math. A prospect with HHC
                   need but zero prescriptions still gets the product, just at full premium. A prospect with prescriptions but
                   no felt HHC need won&apos;t buy what they don&apos;t see value in. The two together = the close. We&apos;ll do the
-                  math in Section 1.6.
+                  math in Section 1.7.
                 </p>
               </li>
               <li className="bg-white border border-light-cyan rounded-lg p-4">
@@ -4260,7 +4261,7 @@
               <li><span className="font-heading font-semibold">3.</span> The right prospect is 55–85, currently independent, on at least one prescription, with family nearby. Once they need it, it's too late to buy it.</li>
             </ul>
             <p className="mt-4 text-xs text-mid-blue italic">
-              Up next: why your prospect actually needs both products. The customer pain that drives the conversation.
+              Up next: the structural gap in Medicare's coverage that explains why this product exists at all.
             </p>
           </div>
         </div>
@@ -4268,11 +4269,241 @@
     }
 
     function Section_1_3() {
+      const SEVEN_RULES = [
+        { n: 1, rule: "Medicare, Medigap, and MA all cover medical home care nearly identically.", why: "Stop comparing carriers. The skilled-care benefit is federally mandated and functionally the same across plans. The carriers aren't where the gap lives." },
+        { n: 2, rule: "Medicare home care has NO time limit. It has a CATEGORY limit.", why: "Skilled care is covered indefinitely; daily-living help is never covered. The famous “100-day rule” is for Skilled Nursing Facility coverage, not home care." },
+        { n: 3, rule: "Medigap pays NOTHING for home care.", why: "Medicare home care is already $0 to the patient — there's no cost-share for Medigap to fill. Plus Medigap doesn't expand benefit categories. Doubly useless here." },
+        { n: 4, rule: "Only ~7% of MA plans add ANY in-home support.", why: "Most are SSBCI (chronically-ill members only). When a prospect says “my MA plan covers it,” the default assumption is wrong." },
+        { n: 5, rule: "“$0 cost-share when authorized” hides 7 conditions.", why: "Skilled need + homebound + intermittent + Medicare-cert agency + in-network (MA) + prior auth + active care plan. Miss one → patient pays 100%." },
+        { n: 6, rule: "Resources for Living, Healthy Options Allowance, post-discharge meals, Wellness Bucks — these are NOT in-home care.", why: "These are the most common false-positives. Referral services, flex cards, fitness benefits, short-term recovery. None of them pay for someone to bathe a prospect." },
+        { n: 7, rule: "UNL HHC pays CASH directly to the member or family caregiver. No homebound test. No prior auth.", why: "This is the structural reason UNL HHC fills the gap that even the most generous MA plan doesn't." },
+      ];
+      const COVERAGE_MAP = [
+        ["Skilled nursing / IV / wound care", "✅ $0 if criteria met", "✅ same", "✅ same (PA may apply)", "Pays daily $ on top"],
+        ["PT / OT / speech therapy", "✅ $0 if criteria met", "✅ same", "✅ same", "Pays daily $ on top"],
+        ["Home health aide ALONE (no skilled need)", "❌", "❌", "❌ (8 of 9 plans)", "✅"],
+        ["Bathing / dressing / toileting help", "❌", "❌", "❌ (8 of 9 plans)", "✅"],
+        ["Meals delivered to home (ongoing)", "❌", "❌", "⚠️ post-discharge only", "✅ (cash benefit)"],
+        ["Homemaker services (cleaning, shopping)", "❌", "❌", "❌ (8 of 9 plans)", "✅ (cash benefit)"],
+        ["24-hour care at home", "❌", "❌", "❌", "✅ (cash benefit)"],
+        ["Family member providing care (paid)", "❌", "❌", "❌", "✅ ($3,500 lump)"],
+        ["Care for non-homebound member", "❌", "❌", "❌", "✅ (no homebound test)"],
+      ];
+      const SUPPLEMENTAL_DECODER = [
+        ["Resources for Living (Aetna)", "1-800 referral concierge", "❌ Referral only"],
+        ["Healthy Options Allowance (Humana D-SNP)", "Flex card for groceries / utilities / rent", "❌ Flex spending"],
+        ["Healthy Food Card (UHC C-SNP)", "Restricted-merchant card for healthy groceries (SSBCI)", "❌ Food only"],
+        ["OTC Card (all carriers)", "Restricted-merchant card for over-the-counter items", "❌ OTC items only"],
+        ["Post-discharge meals (Aetna 14, UHC 28)", "Short-term meal delivery after hospital / SNF stay", "⚠️ Short-term only"],
+        ["Wellness Bucks (Devoted)", "Reimbursement for fitness equipment / wearables", "❌ Fitness only"],
+        ["Routine transportation (most MA)", "Rides to medical appointments", "❌ Transportation only"],
+        ["In-home services (UHC D-SNP H2001-053 only)", "Real in-home support inside $111/mo flex pool", "✅ Yes (only D-SNP)"],
+        ["Respite care (most plans, hospice only)", "Short-term caregiver relief during hospice", "⚠️ Hospice only"],
+        ["SSBCI in-home support (~12% of MA plans)", "Special Supplemental Benefits, paid in-home help", "✅ Chronically-ill only"],
+      ];
+      const SCENARIOS = [
+        ["Mary post-hip-replacement. Homebound. PT 3×/week, 60 days.", "✅ $0", "Pays daily on top"],
+        ["Mary 90 days later. Hip healed, no skilled need. Needs help bathing.", "❌ Not covered", "✅ Covered"],
+        ["Mary intensive recovery. 35 hrs/week skilled care.", "⚠️ Excess hours on her", "✅ Covered fully"],
+        ["Mary uses out-of-network agency (MA member).", "❌ Not covered (MA)", "✅ (no network)"],
+        ["Mary needs 24-hour care.", "❌ Excluded", "✅ Cash benefit"],
+      ];
+      return (
+        <div className="space-y-7">
+          <div className="flex items-center gap-2 text-sm text-mid-blue">
+            <span className="font-heading font-semibold">Part 1 &middot; Foundation</span>
+            <span>&middot;</span><span>Section 1.3</span><span>&middot;</span><span>~15 min</span>
+          </div>
+          <h1 className="font-heading font-bold text-3xl md:text-4xl text-secondary leading-tight">
+            The Medicare HHC Gap
+          </h1>
+          <p className="text-lg text-text leading-relaxed">
+            <span className="font-heading font-semibold">The single sentence:</span> Medicare, Medigap, and Medicare Advantage all cover medical home care nearly identically. None cover daily-living help. That&apos;s the gap UNL HHC Shield fills.
+          </p>
+          <p className="text-text leading-relaxed">
+            Most agents &mdash; and most prospects &mdash; don&apos;t know this. By the time you finish this section, you will. It&apos;s the foundational frame for every objection you&apos;ll handle and every value pitch you&apos;ll make.
+          </p>
+
+          {/* Mental model image */}
+          <div className="bg-light-cyan/30 border border-light-cyan rounded-lg p-6">
+            <div className="text-[10px] uppercase tracking-wider text-mid-blue font-heading font-semibold mb-3">The mental model &mdash; memorize this image</div>
+            <pre className="font-mono text-xs text-text leading-relaxed whitespace-pre overflow-x-auto">{`                  MEDICAL care            DAILY-LIVING care
+                  (skilled, recovery)     (custodial, ongoing)
+                  ───────────────────     ───────────────────
+Original Medicare    ✅ COVERED              ❌ NOT COVERED
+Medicare + Medigap   ✅ COVERED              ❌ NOT COVERED
+Medicare Advantage   ✅ COVERED              ❌ NOT COVERED (~89% of plans)
+UNL HHC Shield       ✅ Pays cash too        ✅ COVERED
+                                              ↑
+                                        THE GAP UNL FILLS`}</pre>
+            <p className="text-text text-sm mt-3 italic">
+              Two columns. Three Medicare layers all in the same column. UNL HHC Shield fills the right column. That&apos;s the entire picture.
+            </p>
+          </div>
+
+          {/* Seven rules */}
+          <div>
+            <h2 className="font-heading font-bold text-2xl text-secondary mb-3">Seven rules of thumb</h2>
+            <p className="text-text mb-4">
+              These are the seven facts every agent should know cold. Memorize them. They handle 95% of &ldquo;but my plan covers that&rdquo; objections.
+            </p>
+            <div className="space-y-3">
+              {SEVEN_RULES.map(r => (
+                <div key={r.n} className="bg-white border border-light-cyan rounded-lg p-4 flex gap-4">
+                  <div className="font-heading font-bold text-3xl text-accent leading-none flex-shrink-0">{r.n}</div>
+                  <div className="flex-1">
+                    <div className="font-heading font-semibold text-secondary mb-1 leading-snug">{r.rule}</div>
+                    <div className="text-sm text-text leading-relaxed">{r.why}</div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Coverage map */}
+          <div>
+            <h2 className="font-heading font-bold text-2xl text-secondary mb-3">The coverage map</h2>
+            <p className="text-text mb-4">
+              For each kind of care a senior actually needs, here&apos;s who pays:
+            </p>
+            <div className="bg-white border border-light-cyan rounded-lg overflow-x-auto">
+              <table className="w-full text-sm border-collapse">
+                <thead>
+                  <tr className="bg-light-cyan/20 border-b border-light-cyan">
+                    <th className="p-3 text-left font-heading font-semibold text-secondary">Care need</th>
+                    <th className="p-3 text-center font-heading font-semibold text-secondary">Original Medicare</th>
+                    <th className="p-3 text-center font-heading font-semibold text-secondary">+ Medigap</th>
+                    <th className="p-3 text-center font-heading font-semibold text-secondary">Medicare Advantage</th>
+                    <th className="p-3 text-center font-heading font-semibold text-secondary">UNL HHC Shield</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {COVERAGE_MAP.map((row, i) => (
+                    <tr key={i} className="border-b border-light-cyan/40 last:border-b-0">
+                      <td className="p-3 text-text">{row[0]}</td>
+                      <td className="p-3 text-center text-sm">{row[1]}</td>
+                      <td className="p-3 text-center text-sm">{row[2]}</td>
+                      <td className="p-3 text-center text-sm">{row[3]}</td>
+                      <td className="p-3 text-center text-sm font-semibold text-accent">{row[4]}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p className="text-text text-sm mt-3 italic">
+              Pattern: top half (medical / recovery) is covered everywhere. Bottom half (daily-living / long-term-need) is covered <span className="font-heading font-semibold">only by UNL HHC Shield.</span>
+            </p>
+          </div>
+
+          {/* Seven conditions for $0 */}
+          <div>
+            <h2 className="font-heading font-bold text-2xl text-secondary mb-3">What &ldquo;$0 cost-share when authorized&rdquo; actually requires</h2>
+            <p className="text-text mb-4">
+              When a prospect says &ldquo;I have Medicare home health at $0,&rdquo; that&apos;s true &mdash; but only when ALL 7 of these hold simultaneously. Miss any one, and they pay 100%.
+            </p>
+            <div className="bg-white border border-light-cyan rounded-lg p-5">
+              <ol className="space-y-2 text-sm text-text">
+                <li><span className="font-heading font-semibold text-secondary">1. Skilled need certified.</span> Doctor must certify need for skilled nursing, PT, OT, or speech therapy.</li>
+                <li><span className="font-heading font-semibold text-secondary">2. Homebound.</span> Leaving home requires considerable, taxing effort with help of devices / another person.</li>
+                <li><span className="font-heading font-semibold text-secondary">3. Intermittent.</span> Combined skilled nursing + home health aide is fewer than 8 hours/day AND fewer than 28-35 hours/week.</li>
+                <li><span className="font-heading font-semibold text-secondary">4. Medicare-certified agency.</span> Care must come from a Medicare-certified Home Health Agency.</li>
+                <li><span className="font-heading font-semibold text-secondary">5. (MA only) In-network.</span> The agency must be in the plan&apos;s network. Out-of-network = patient pays.</li>
+                <li><span className="font-heading font-semibold text-secondary">6. (MA only) Prior authorization approved.</span> MA plans deny ~13% of prior auth requests overall. Original Medicare doesn&apos;t have this gate.</li>
+                <li><span className="font-heading font-semibold text-secondary">7. Active plan of care.</span> Doctor-signed plan, recertified every 60 days. Recert lapses &rarr; coverage stops.</li>
+              </ol>
+            </div>
+          </div>
+
+          {/* Supplemental decoder */}
+          <div>
+            <h2 className="font-heading font-bold text-2xl text-secondary mb-3">Common MA &ldquo;supplemental&rdquo; benefits &mdash; what they ARE and AREN&apos;T</h2>
+            <p className="text-text mb-4">
+              This is where prospects get confused. Use this table on calls when a prospect says &ldquo;but my plan has X.&rdquo;
+            </p>
+            <div className="bg-white border border-light-cyan rounded-lg overflow-x-auto">
+              <table className="w-full text-sm border-collapse">
+                <thead>
+                  <tr className="bg-light-cyan/20 border-b border-light-cyan">
+                    <th className="p-3 text-left font-heading font-semibold text-secondary">Benefit name (carrier)</th>
+                    <th className="p-3 text-left font-heading font-semibold text-secondary">What it actually is</th>
+                    <th className="p-3 text-center font-heading font-semibold text-secondary">In-home care?</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {SUPPLEMENTAL_DECODER.map((row, i) => (
+                    <tr key={i} className="border-b border-light-cyan/40 last:border-b-0">
+                      <td className="p-3 text-text font-heading font-semibold">{row[0]}</td>
+                      <td className="p-3 text-text">{row[1]}</td>
+                      <td className="p-3 text-center text-sm">{row[2]}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p className="text-text text-sm mt-3 italic">
+              Rule: if it&apos;s a CARD, it&apos;s not in-home care. If it&apos;s a REFERRAL service, it&apos;s not in-home care. If it&apos;s HOSPICE or POST-DISCHARGE only, it&apos;s not ongoing care.
+            </p>
+          </div>
+
+          {/* Five-scenario test */}
+          <div>
+            <h2 className="font-heading font-bold text-2xl text-secondary mb-3">The 5-scenario test</h2>
+            <p className="text-text mb-4">
+              Internalize these. They&apos;re how you&apos;ll predict coverage for any prospect&apos;s situation by analogy.
+            </p>
+            <div className="bg-white border border-light-cyan rounded-lg overflow-x-auto">
+              <table className="w-full text-sm border-collapse">
+                <thead>
+                  <tr className="bg-light-cyan/20 border-b border-light-cyan">
+                    <th className="p-3 text-left font-heading font-semibold text-secondary">Scenario</th>
+                    <th className="p-3 text-center font-heading font-semibold text-secondary">Medicare?</th>
+                    <th className="p-3 text-center font-heading font-semibold text-secondary">UNL HHC?</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {SCENARIOS.map((row, i) => (
+                    <tr key={i} className="border-b border-light-cyan/40 last:border-b-0">
+                      <td className="p-3 text-text">{row[0]}</td>
+                      <td className="p-3 text-center text-sm">{row[1]}</td>
+                      <td className="p-3 text-center text-sm font-semibold text-accent">{row[2]}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p className="text-text text-sm mt-3 italic">
+              Rule of thumb: Medicare covers the recovery from acute events. UNL HHC covers everything else. Together they&apos;re complementary; alone, Medicare leaves a massive gap.
+            </p>
+          </div>
+
+          {/* The elevator pitch */}
+          <div className="bg-accent/15 border-2 border-accent rounded-lg p-6">
+            <div className="text-[10px] uppercase tracking-wider text-secondary font-heading font-semibold mb-2">The one-line summary &mdash; recite this until it&apos;s automatic</div>
+            <p className="text-text leading-relaxed font-heading font-semibold text-lg">
+              &ldquo;Medicare, Medigap, and MA all cover the medical / recovery side of home care. None of them cover the daily-living / long-term-need side. That&apos;s an entire category of care &mdash; bathing, meals, 24-hour help, family caregiver pay &mdash; that&apos;s 100% on the patient. UNL HHC pays cash directly toward exactly that gap, with no homebound test and no prior auth.&rdquo;
+            </p>
+            <p className="text-text text-sm mt-3 italic">
+              If you can&apos;t recite that paragraph cold, re-read the section before moving on.
+            </p>
+          </div>
+
+          {/* Up next */}
+          <div className="bg-light-cyan/30 border border-light-cyan rounded-lg p-5">
+            <div className="text-[10px] uppercase tracking-wider text-mid-blue font-heading font-semibold mb-2">Up next</div>
+            <p className="text-text leading-relaxed">
+              Now you know <span className="font-heading font-semibold">why this product exists</span> structurally. Section 1.4 covers <span className="font-heading font-semibold">why your prospect feels the gap</span> emotionally &mdash; family-burden, independence, fixed-income exposure. Real-felt pain, not just regulatory gaps.
+            </p>
+          </div>
+        </div>
+      );
+    }
+
+    function Section_1_4() {
       return (
         <div className="space-y-7">
           <div className="flex items-center gap-2 text-sm text-mid-blue">
             <span className="font-heading font-semibold">Part 1 · Foundation</span>
-            <span>·</span><span>Section 1.3</span><span>·</span><span>~25 min</span>
+            <span>·</span><span>Section 1.4</span><span>·</span><span>~25 min</span>
           </div>
           <h1 className="font-heading font-bold text-3xl md:text-4xl text-secondary leading-tight">
             Why your prospect needs these
@@ -4410,7 +4641,7 @@
               reimbursement caps at $600/year — almost exactly cancelling out the annual premium.
             </p>
             <p className="text-text leading-relaxed">
-              We do the persona math in Section 1.6, but here's the headline: <span className="font-heading font-semibold">when
+              We do the persona math in Section 1.7, but here's the headline: <span className="font-heading font-semibold">when
               you frame HHC's premium as "the part that's not refunded by your prescription benefit," the price objection
               collapses.</span> That framing — and the discipline to lead with it for the right prospect — is why this
               product wins where competitors lose.
@@ -4479,12 +4710,12 @@
       );
     }
 
-    function Section_1_4() {
+    function Section_1_5() {
       return (
         <div className="space-y-7">
           <div className="flex items-center gap-2 text-sm text-mid-blue">
             <span className="font-heading font-semibold">Part 1 · Foundation</span>
-            <span>·</span><span>Section 1.4</span><span>·</span><span>~20 min</span>
+            <span>·</span><span>Section 1.5</span><span>·</span><span>~20 min</span>
           </div>
           <h1 className="font-heading font-bold text-3xl md:text-4xl text-secondary leading-tight">
             HI Shield in detail
@@ -4721,12 +4952,12 @@
       );
     }
 
-    function Section_1_5() {
+    function Section_1_6() {
       return (
         <div className="space-y-7">
           <div className="flex items-center gap-2 text-sm text-mid-blue">
             <span className="font-heading font-semibold">Part 1 · Foundation</span>
-            <span>·</span><span>Section 1.5</span><span>·</span><span>~20 min</span>
+            <span>·</span><span>Section 1.6</span><span>·</span><span>~20 min</span>
           </div>
           <h1 className="font-heading font-bold text-3xl md:text-4xl text-secondary leading-tight">
             HHC + TCare in detail
@@ -4964,12 +5195,12 @@
       );
     }
 
-    function Section_1_6() {
+    function Section_1_7() {
       return (
         <div className="space-y-7">
           <div className="flex items-center gap-2 text-sm text-mid-blue">
             <span className="font-heading font-semibold">Part 1 · Foundation</span>
-            <span>·</span><span>Section 1.6</span><span>·</span><span>~15 min</span>
+            <span>·</span><span>Section 1.7</span><span>·</span><span>~15 min</span>
           </div>
           <h1 className="font-heading font-bold text-3xl md:text-4xl text-secondary leading-tight">
             Prescription reimbursement deep-dive
@@ -5560,7 +5791,7 @@
             </div>
             <p className="text-text leading-relaxed mb-3">
               For most calls, the centerpiece of the Presentation is the <span className="font-heading font-semibold">"real
-              monthly cost" reframe</span> from Section 1.6:
+              monthly cost" reframe</span> from Section 1.7:
             </p>
             <div className="bg-light-cyan/20 border-l-4 border-accent pl-5 py-3 mb-4 text-sm text-text leading-relaxed italic">
               "So here's how this works… you mentioned you're spending around $50-60 a month on prescriptions. The plan
@@ -6444,6 +6675,11 @@
         { category: 'Method', name: 'Math pre-frame', deploy: 'Stage 5 · before quoting premium', text: '"Bear with me, I\'m going to give you the gross premium first and then the math that actually matters."', research: 'Mitigates sticker shock. The fixed-income senior\'s brain hears "fifty dollars" before "five dollars" lands. The pre-frame gives them permission to absorb the big number without flinching, knowing better math is coming.' },
         { category: 'Method', name: 'Looping / check-back frame', deploy: 'Stages 2-5 · throughout', text: '"You mentioned [their exact words] — say more about that?" / "Help me understand [thing] better." / "When you said [their phrase], what did you mean?"', research: 'NEPQ doctrine: 6-12 looping questions per call. Most under-used skill in sales. Shows prospect is HEARD (rare in cold sales) and draws out detail that compounds the build. Difference between flat acknowledgment ("right" / "I see") and active listening.' },
         { category: 'Method', name: 'Why-do-you-feel commitment frame', deploy: 'Stage 5 · after first \'yes\'', text: '"Hold on — why do you feel like it is, though?"', research: 'Stage 5 Q2 move. Most non-obvious genius pattern in NEPQ. When the prospect answers "yes" to "do you feel this could be the answer for you?", DON\'T rush to the application — make them defend the yes. By the time they finish explaining why this fits THEM, they\'ve sold themselves harder than you ever could. Then proceed to Q3 ("what specific parts will help most?") and Q4 ("is this something that gets you where you want to go?") before scheduling the application.' },
+        { category: 'Method', name: '100-day myth recovery frame', deploy: 'Any stage \u00b7 if prospect cites Medicare 100-day rule', text: '"That\'s a really common mix-up \u2014 the 100-day rule is for Skilled Nursing Facility care after a hospital stay, not home health. Medicare home health actually has no time limit. The catch is what kind of care it covers \u2014 skilled care like nursing visits or therapy. It doesn\'t cover help with bathing, dressing, or 24-hour care when those are the only things you need. That\'s the gap."', research: 'Per 42 CFR \u00a7 409.48, Medicare covers an unlimited number of home health visits when criteria are met. The 100-day rule is SNF Part A. The gap is CATEGORY (skilled vs custodial), not time. Defuses the most common Medicare-coverage objection by clarifying without arguing.' },
+        { category: 'Method', name: 'Medigap zero-for-home-care frame', deploy: 'Any stage \u00b7 if prospect cites Medicare Supplement', text: '"Your Medigap is great for what it does \u2014 it pays the deductibles and coinsurance Medicare leaves behind on hospital and outpatient care. But here\'s something most people don\'t realize: Medicare home health is already $0 to you when covered. There\'s no cost-share for Medigap to pay. Plus, Medigap can\'t add new benefit categories \u2014 so personal care that Medicare doesn\'t cover, Medigap doesn\'t either. That\'s the gap this product fills."', research: 'Medigap is doubly useless for home care: (1) Medicare HHC already $0 cost-share = nothing to pay; (2) Medigap doesn\'t expand benefit categories. Medicare.gov verbatim. Closes the \'I have a supplement\' objection without dismissing the supplement\'s real value elsewhere.' },
+        { category: 'Method', name: 'MA in-home support 7% reality frame', deploy: 'Any stage \u00b7 if prospect cites MA supplemental benefits', text: '"Some MA plans do add supplemental in-home support, and it\'s worth checking your specific plan\'s Summary of Benefits to confirm. But it\'s only about 7% of individual plans in 2026, and when they do, it\'s usually capped at small dollar amounts and limited to chronically ill members. The home care coverage we\'re discussing pays you cash directly, regardless of what your plan does."', research: 'KFF Medicare Advantage 2026 Spotlight: ~7% of individual MA plans offer in-home support; 25% of SNPs; 12% offer SSBCI. When supplemental in-home is offered, it\'s typically $500-2,500/yr capped, plan-network bound, and SSBCI-restricted. Respects the prospect\'s claim while surfacing the gap.' },
+        { category: 'Method', name: 'Skilled-only category gap frame', deploy: 'Stage 2 \u00b7 Problem Awareness \u00b7 standalone or general benefit inbound', text: '"Medicare covers home health, but only the medical part. So a nurse coming for wound care after surgery \u2014 covered. An aide coming to help you bathe when that gets too hard \u2014 that\'s the part Medicare specifically excludes. It\'s not a glitch \u2014 it\'s the rule, right on Medicare.gov. Have you watched anyone in your life go through this before?"', research: 'Medicare.gov verbatim: 24-hour care, meals, homemaker services, custodial care \u2014 NOT covered when this is the only care needed. The CATEGORY (skilled vs custodial) is the gap, not time. The closing question lets the prospect tell their own family\'s story, which lands harder than any stat.' },
+        { category: 'Method', name: 'Walk-through-their-SOB frame', deploy: 'Any stage \u00b7 if prospect cites their specific MA plan covers something', text: '"Some plans do, and it\'s worth checking your specific plan\'s Summary of Benefits. While we\'re talking \u2014 do you have your member packet handy? I can walk through it with you and tell you exactly what\'s covered. In my experience, even when there\'s something there, it\'s usually capped at a few hundred dollars a year and limited to specific conditions."', research: 'Respects the prospect\'s claim instead of dismissing. Then walks them through their actual plan and surfaces the gap from THEIR document, not a generic stat. The trust-building move when a prospect insists \'my plan covers it.\' Source: 9-plan SOB analysis showed only 1 of 9 plans had real in-home support.' },
         { category: 'Method', name: 'Validation discipline (8-12 per call)', deploy: 'Stages 2-5 · sprinkled throughout', text: '"Does that make sense?" / "Are we on the same page?" / "Does that match what you\'ve been thinking?"', research: 'NEPQ specifies 8-12 of these per call. Most agents skip them and save validation for the close — wrong. They build agreement momentum, surface confusion EARLY (cheap to fix), and create a string of "yes" responses that compound into commitment.' },
         { category: 'Method', name: 'Spouse / family ratification', deploy: 'Stage 4 late · before Presentation', text: '"Quick one before I walk through the math — is this the kind of decision you\'d make on your own, or would you want [spouse/daughter] in on it?"', research: 'Pre-handles the "I need to talk to my spouse" stall. Either you set up calling them in (best), or they say "no, I make these decisions" — which empowers commitment without the cop-out later.' },
         { category: 'Method', name: 'Commitment sequence — soft commit', deploy: 'Stage 6 · close', text: '"Do you feel this could be the answer for your situation?"', research: 'NEPQ commitment sequence Q1. Notice language: "could be the answer" — not "is the answer," not "want to buy." Low-stakes. They can say "yes" without feeling cornered.' },
@@ -6551,7 +6787,7 @@
           <div className="bg-light-cyan/30 border border-light-cyan rounded-lg p-6 mt-6">
             <div className="font-heading font-semibold text-secondary mb-3">Using this library</div>
             <ul className="space-y-2 text-text text-sm">
-              <li>• <span className="font-heading font-semibold">Don't memorize all 44.</span> Pick 4-6 that feel natural in your voice. Memorize those verbatim. Use the search box above to find a frame fast on a live call.</li>
+              <li>• <span className="font-heading font-semibold">Don't memorize all 49.</span> Pick 4-6 that feel natural in your voice. Memorize those verbatim. Use the search box above to find a frame fast on a live call.</li>
               <li>• <span className="font-heading font-semibold">Match frame to prospect.</span> Single-MA member with prescriptions → Rx frames. 70-year-old with adult kids → HHC frames. Recently MA-enrolled → HI frames.</li>
               <li>• <span className="font-heading font-semibold">Always have one Method frame ready.</span> The Status Frame opens; the Loop-back frame saves a hesitation. Those two are non-negotiable.</li>
               <li>• <span className="font-heading font-semibold">The Stat Bank in Resources</span> has the underlying numbers if you need to reach for them.</li>
@@ -6746,6 +6982,30 @@
         correctIdx: 2,
         explain: "The filter promise is the single move that distinguishes legitimate brokers from scam vendors in the senior's mental model. It tells the prospect: \"I'm an evaluator, not a seller.\" Without it, every later question carries more friction. Cross-sell calls (Type 1) don't need it because trust is already built from the MA enrollment — but Type 2 and Type 3 calls live or die by this line.",
       },
+      {
+        topic: 'Medicare HHC time limit',
+        q: "A prospect cites the 100-day rule for home health coverage. What's the right response?",
+        choices: [
+          "Yes, that's right — and after 100 days they'd need supplemental coverage",
+          "That's the Skilled Nursing Facility rule, not home health. Medicare home health has no day cap — but only covers skilled care, not custodial help like bathing or meals",
+          "Only with a Medicare Supplement plan attached",
+          "Yes, and Medicare Advantage plans extend it to 200 days",
+        ],
+        correctIdx: 1,
+        explain: "The 100-day rule is the SNF benefit (facility-based, post-hospital). Medicare home health has NO day cap — the cap is on the CATEGORY of care (skilled-only). Per 42 CFR § 409.48, Medicare covers \"an unlimited number of covered home health visits\" as long as the patient remains eligible (homebound + skilled need + intermittent + Medicare-cert agency). The gap is custodial care, not time.",
+      },
+      {
+        topic: 'Medigap and HHC',
+        q: "A prospect believes their Medicare Supplement covers home care. Your most accurate response:",
+        choices: [
+          "Yes, Medigap fills all the gaps Medicare leaves",
+          "Medigap pays NOTHING for home care — Medicare home health is already $0 cost-share, AND Medigap doesn't add new benefit categories",
+          "Medigap only covers 60% of home care costs",
+          "Medigap covers home care but only after a hospital stay",
+        ],
+        correctIdx: 1,
+        explain: "Medigap is doubly useless for home care. (1) Medicare home health is already $0 cost-share when covered — so there's no cost-share for Medigap to fill. (2) Medigap doesn't expand benefit categories — if Medicare doesn't cover something (like custodial bathing/dressing help), Medigap doesn't either. This closes the \"I have a supplement\" objection cleanly.",
+      },
     ];
 
     function MasteryQuizView({
@@ -6807,7 +7067,7 @@
           <div className="space-y-6">
             <div className="flex items-center gap-2 text-sm text-mid-blue">
               <span className="font-heading font-semibold">Part 1 · Foundation</span>
-              <span>·</span><span>Section 1.7</span><span>·</span><span>Mastery Quiz</span>
+              <span>·</span><span>Section 1.8</span><span>·</span><span>Mastery Quiz</span>
             </div>
             <h1 className="font-heading font-bold text-3xl md:text-4xl text-secondary leading-tight">{title}</h1>
             <p className="text-lg text-text leading-relaxed">
@@ -7273,7 +7533,7 @@
       );
     }
 
-    function Section_1_7({ progress, setProgress }) {
+    function Section_1_8({ progress, setProgress }) {
       const handlePass = (score) => {
         setProgress(p => {
           const cp = p.courseProgress || {};
@@ -7292,7 +7552,7 @@
                   passedAt: fnd.passedAt || new Date().toISOString(),
                 },
               },
-              completedSectionIds: cp.completedSectionIds?.includes('1.7') ? cp.completedSectionIds : [...(cp.completedSectionIds || []), '1.7'],
+              completedSectionIds: cp.completedSectionIds?.includes('1.8') ? cp.completedSectionIds : [...(cp.completedSectionIds || []), '1.8'],
             },
           };
           saveProgress(next);
@@ -7417,7 +7677,8 @@
       if (sectionId === '1.4') return <Section_1_4 />;
       if (sectionId === '1.5') return <Section_1_5 />;
       if (sectionId === '1.6') return <Section_1_6 />;
-      if (sectionId === '1.7') return <Section_1_7 progress={progress} setProgress={setProgress} />;
+      if (sectionId === '1.7') return <Section_1_7 />;
+      if (sectionId === '1.8') return <Section_1_8 progress={progress} setProgress={setProgress} />;
 
       // Part 2
       if (sectionId === '2.1') return <Section_2_1 />;
