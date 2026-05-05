@@ -1241,7 +1241,7 @@
         },
       },
 
-      // ============= CARL — BROKERED TYPE 2 (bread-and-butter) ============
+      // ============= CARL — GENERAL BENEFIT INBOUND TYPE 2 (bread-and-butter) ============
       {
         id: 'carl',
         name: 'Carl',
@@ -1253,16 +1253,16 @@
         familyDynamic: 'Wife Linda (70) at home; daughter Jessica (41) lives 30 minutes away, teaches middle school, has two teens',
         idealFit: 'HHC Option B — full happy-path Type 2: takes 4 meds, family nearby, articulates preference for home, names daughter',
         difficulty: 'Tests the full Type 2 NEPQ flow — Opener C, triple-duty Stage 2, preference question, family burden, math pre-frame',
-        summary: 'Brokered general-benefits inbound lead. Carl signed up on a Medicare-benefits publisher site after his wife saw an ad. He doesn\'t really know what the call is about — has been called by other vendors today. Tests Opener C (Status Frame for brokered leads), triple-duty Stage 2 questions, the preference-question opener for Stage 3, family-burden Consequence, and the math pre-frame. Bread-and-butter call most Type 2 inbound contacts will look like.',
+        summary: 'General benefit inbound lead. Carl signed up on a Medicare-benefits publisher site after his wife saw an ad. He doesn\'t really know what the call is about — has been called by other vendors today. Tests Opener C (Status Frame for general benefit inbound leads), triple-duty Stage 2 questions, the preference-question opener for Stage 3, family-burden Consequence, and the math pre-frame. Bread-and-butter call most Type 2 inbound contacts will look like.',
         opening: "Yeah, hi. I think I signed up for some Medicare benefits information thing online. Or maybe my wife did, I'm not totally sure what this is about.",
         stages: {
           Connection: {
             prospectLine: "I've already had a couple of calls today about this. I'm not sure if this is the same company.",
             choices: [
               { id: 'cl-c-1', text: "Hi Carl, thanks for reaching out about Medicare benefits. I'm [agent] with Clear Path Coverage. My job's pretty simple — I'll ask you a couple of quick questions to see if there's a benefit here you'd qualify for. If there is, I'll walk you through it; if not, I'll just tell you straight. Sound fair?", quality: 'best', response: "Yeah, okay, that's reasonable.", coaching: "Opener C verbatim. Identity + filter promise + permission, no product mention, no price quote. Carl was wary (already called by other vendors); the calm structure differentiates you immediately. The 'qualify for' framing matches his mental model from the publisher signup. Tonality matters — calm and curious, not eager." },
-              { id: 'cl-c-2', text: "Carl, great news — there's a Medicare benefit you may qualify for that could save you thousands of dollars a year. Let me walk you through it!", quality: 'off-rail', response: "Yeah, that's what the last guy said. I'm not really interested.", coaching: "Sales-y enthusiasm on a brokered-lead is hang-up bait. He's been called all day by people promising 'thousands.' You just sounded like vendor #5. Brokered seniors trust calm filtering, not eager pitching." },
-              { id: 'cl-c-3', text: "First, can I confirm your full name, date of birth, and Medicare ID number?", quality: 'off-rail', response: "Whoa, slow down. Why do you need my Medicare ID? Are you a scammer?", coaching: "Asking for SSN/Medicare ID upfront triggers scam-defense. Brokered seniors are warned about exactly this. Build trust first; identity verification can happen at application stage with the Advocate." },
-              { id: 'cl-c-4', text: "Hi Carl. I'm with Clear Path Coverage. Want to walk through what you might qualify for?", quality: 'good', response: "Sure, I guess.", coaching: "Identity ✓ but skipped the filter promise (the trust anchor that earns brokered leads). 'Sound fair?' permission gate also missing. He said yes but you got there with less trust — every later question carries more friction." },
+              { id: 'cl-c-2', text: "Carl, great news — there's a Medicare benefit you may qualify for that could save you thousands of dollars a year. Let me walk you through it!", quality: 'off-rail', response: "Yeah, that's what the last guy said. I'm not really interested.", coaching: "Sales-y enthusiasm on a general benefit inbound lead is hang-up bait. He's been called all day by people promising 'thousands.' You just sounded like vendor #5. General benefit inbound prospects trust calm filtering, not eager pitching." },
+              { id: 'cl-c-3', text: "First, can I confirm your full name, date of birth, and Medicare ID number?", quality: 'off-rail', response: "Whoa, slow down. Why do you need my Medicare ID? Are you a scammer?", coaching: "Asking for SSN/Medicare ID upfront triggers scam-defense. General benefit inbound prospects are warned about exactly this. Build trust first; identity verification can happen at application stage with the Advocate." },
+              { id: 'cl-c-4', text: "Hi Carl. I'm with Clear Path Coverage. Want to walk through what you might qualify for?", quality: 'good', response: "Sure, I guess.", coaching: "Identity ✓ but skipped the filter promise (the trust anchor that earns general benefit inbound leads). 'Sound fair?' permission gate also missing. He said yes but you got there with less trust — every later question carries more friction." },
             ],
           },
           Situation: {
@@ -1278,8 +1278,8 @@
             prospectLine: "I take Lisinopril, atorvastatin, metformin — all generics — and Eliquis for my AFib. The Eliquis runs me about $80 a month. The generics are like $10 each. Probably $100-110 a month all in. Jessica's 30 minutes away. She teaches middle school.",
             choices: [
               { id: 'cl-pa-1', text: "Got it. Quick hypothetical — if you ever needed care for a stretch, say after a hospitalization or surgery or just as you got older — would you prefer to stay in your own home and have home health care come to you, or go into a skilled nursing facility for that period?", quality: 'best', response: "Oh, definitely stay home. I don't want to go into one of those places. My father-in-law was in a nursing home and it was not good.", coaching: "The preference question — highest-leverage Stage 3 opener. AARP: ~75-90% of seniors say home, but the value isn't the answer (you knew it) — it's getting Carl to articulate it OUT LOUD in his own words. Self-persuasion principle. He also volunteered a past-experience anchor (father-in-law) — gold for the next move." },
-              { id: 'cl-pa-2', text: "Now let me tell you about the great Home Healthcare plan we offer. It's got $100,000 of benefits...", quality: 'off-rail', response: "Hold on, I haven't even said I'm interested in any of this.", coaching: "Skipped Stage 3 entirely and jumped to Presentation. Carl hasn't articulated any need for HHC — he just told you about his prescriptions and his daughter. Pitching here is exactly the bait-and-switch that breaks brokered-lead trust. Build need first, present second." },
-              { id: 'cl-pa-3', text: "Have you thought about hospital coverage? Most MA plans leave a $200-400/day copay for the first week.", quality: 'off-rail', response: "I called about Medicare benefits, not hospital insurance. What does this have to do with anything?", coaching: "Wrong product pivot. Carl is a Type 2 brokered lead — the strategy is HHC+Rx, not HI. Pivoting to HI on a brokered call IS the bait-and-switch you're trying to avoid. Stay disciplined on HHC." },
+              { id: 'cl-pa-2', text: "Now let me tell you about the great Home Healthcare plan we offer. It's got $100,000 of benefits...", quality: 'off-rail', response: "Hold on, I haven't even said I'm interested in any of this.", coaching: "Skipped Stage 3 entirely and jumped to Presentation. Carl hasn't articulated any need for HHC — he just told you about his prescriptions and his daughter. Pitching here is exactly the bait-and-switch that breaks general benefit inbound lead trust. Build need first, present second." },
+              { id: 'cl-pa-3', text: "Have you thought about hospital coverage? Most MA plans leave a $200-400/day copay for the first week.", quality: 'off-rail', response: "I called about Medicare benefits, not hospital insurance. What does this have to do with anything?", coaching: "Wrong product pivot. Carl is a Type 2 general benefit inbound lead — the strategy is HHC+Rx, not HI. Pivoting to HI on a general benefit inbound call IS the bait-and-switch you're trying to avoid. Stay disciplined on HHC." },
               { id: 'cl-pa-4', text: "Out of curiosity — have you ever known someone who needed home care? A parent, a friend? What did that look like for them?", quality: 'better', response: "Yeah, my father-in-law went into a nursing home about 5 years before he passed. It was rough on my mother-in-law — emotionally and financially.", coaching: "Past-experience question — strong but slightly out of order. The preference question (home vs facility) lays the foundation; the past-experience question is the deep-dive AFTER they've articulated preference. You got useful info but in a less-anchored sequence." },
             ],
           },
@@ -1296,7 +1296,7 @@
             prospectLine: "Yeah, that's a lot of money. We've got some savings but not enough to handle that for very long. Jessica would try to help but she's got her teaching job and the kids. I don't want to be the reason she has to take leave.",
             choices: [
               { id: 'cl-co-1', text: "Yeah, that's the real concern most folks have — the burden falls on family even when there's no choice. So if there were a way to handle exactly what we just talked about — care at home if you needed it, $3,500 paid directly to Jessica if she stepped up to help, and to do it without burning through your savings — would that be worth a couple minutes to walk through? *[after yes]* So based on what you just told me — staying home matters, Jessica's the one who'd step up, you don't want her losing income or you burning through what you've saved — there's a Home Healthcare insurance plan that handles exactly that situation. Three things it does. First — $100,000 of home healthcare benefits if you ever needed care. Nursing, therapies, home aides, up to 360 days. Second — $3,500 paid directly to Jessica, in her own pocket, if she's the one caring for you. Up to twice in your lifetime. Third — there's a prescription benefit built into the plan: $25 back per brand fill, $10 per generic, capped at $600 a year. Does that match what you were hoping for? *[after yes]* On premium — bear with me, gross first then the math that matters. For someone your age in Georgia, the plan typically runs around $50-65 a month. Now here's the part that surprises folks: since you're already taking 4 prescriptions including Eliquis, that prescription benefit covers most of the premium back. Real cost ends up around $3-5 a month for someone in your situation. So to recap — for $3-5 a month real cost, $100,000 of home healthcare protection, $3,500 directly to Jessica if she ends up caring for you, and the prescription benefit covering most of the premium. Sound fair?", quality: 'best', response: "$3-5 a month? After the prescription benefit covers it? That sounds almost too good. So the prescription benefit alone covers the premium because I'm already paying for those prescriptions anyway?", coaching: "Full Solution Awareness bridge → anchored Presentation → math with pre-frame and ranges → summary. Notice every move references HIS specific words (staying home, Jessica, savings concern). The math pre-frame ('bear with me, gross first then the math that matters') mitigates sticker shock when $50-65 lands. Premium quoted as RANGE ($50-65, not $54.20) — defensible if actual quote varies. Carl's response confirms the framing landed: he's articulating the math himself ('the prescription benefit covers it because I'm already paying anyway'). That's the close." },
-              { id: 'cl-co-2', text: "It's just $3.50 a month. You'd be crazy not to take this.", quality: 'off-rail', response: "$3.50? That doesn't sound right for any kind of insurance. And what do you mean 'crazy not to'? I haven't even seen what it covers.", coaching: "Quoted a point estimate ($3.50) instead of a range — sets up credibility break if actual quote runs higher. Skipped the value pitch (HHC, $3,500 caregiver, prescription benefit). 'You'd be crazy not to' is high-pressure language — exactly what brokered seniors hang up on." },
+              { id: 'cl-co-2', text: "It's just $3.50 a month. You'd be crazy not to take this.", quality: 'off-rail', response: "$3.50? That doesn't sound right for any kind of insurance. And what do you mean 'crazy not to'? I haven't even seen what it covers.", coaching: "Quoted a point estimate ($3.50) instead of a range — sets up credibility break if actual quote runs higher. Skipped the value pitch (HHC, $3,500 caregiver, prescription benefit). 'You'd be crazy not to' is high-pressure language — exactly what general benefit inbound prospects hang up on." },
               { id: 'cl-co-3', text: "Premium runs about $54 a month, but after the prescription benefit you're at like $3.50/month real cost. $50K in home healthcare benefits, the caregiver thing, prescription savings. Want to move forward?", quality: 'off-rail', response: "Wait, you said $50K? I thought it was $100,000. Hold on, what's the actual amount?", coaching: "Got the math direction but THREE problems: (1) point estimates, not ranges; (2) feature-dump tone instead of anchored framing; (3) wrong HHC benefit number ($50K is Plan A, not Plan B). With 4 meds + Eliquis, Carl fits Plan B ($100K). Match the tier to the prescription profile — Section 1.6." },
               { id: 'cl-co-4', text: "So based on what you said — wanting to stay home, Jessica's situation, your savings — there's a Home Healthcare plan that fits. About $50-65/month for the plan, but after the prescription benefit, real cost is more like $3-5/month. $100,000 of home healthcare, $3,500 to Jessica if she's caring for you, prescription benefit. Sound fair?", quality: 'better', response: "That sounds reasonable. Let me think about it.", coaching: "Anchored opening (mentioned his words), correct ranges, three-bullet structure, soft close. Missing: the math pre-frame (bears with me, gross first), the validation check at the seam ('does that match what you were hoping for?'), and the recap at the end. Functional but less powerful than co-1." },
             ],
@@ -1304,7 +1304,7 @@
         },
       },
 
-      // ============= MARGARET — BROKERED TYPE 2 (skeptical, isolated) ============
+      // ============= MARGARET — GENERAL BENEFIT INBOUND TYPE 2 (skeptical, isolated) ============
       {
         id: 'margaret',
         name: 'Margaret',
@@ -1316,7 +1316,7 @@
         familyDynamic: 'Widowed 4 years; lives alone; daughter Emily lives in Boston (she\'s in Phoenix, AZ); son lives overseas',
         idealFit: 'HHC Option B — values-driven (independence, not being a burden) plus the math',
         difficulty: 'Tests trust rebuild after early skepticism + isolation/values-focused HHC pitch (no family-nearby anchor)',
-        summary: 'Brokered general-benefits inbound lead with explicit "are you a scammer?" opener. Margaret has been called by 5 vendors this week and is on the verge of hanging up. She\'s widowed, lives alone, daughter is across the country. The HHC pitch can\'t lean on family nearby — must lean on independence/values + cost-source. Tests trust rebuild + values-question discipline + recovery from skeptical opener.',
+        summary: 'General benefit inbound lead with explicit "are you a scammer?" opener. Margaret has been called by 5 vendors this week and is on the verge of hanging up. She\'s widowed, lives alone, daughter is across the country. The HHC pitch can\'t lean on family nearby — must lean on independence/values + cost-source. Tests trust rebuild + values-question discipline + recovery from skeptical opener.',
         opening: "Look, I'm getting tired of these Medicare calls. Are you a scammer? Because I've already gotten three calls today and I'm about to start blocking numbers.",
         stages: {
           Connection: {
@@ -1324,7 +1324,7 @@
             choices: [
               { id: 'mg-c-1', text: "Margaret, I get it — I would be too. Look, I'm not asking for any of that. My job's pretty simple: I'll ask a couple of questions to see if there's a benefit you'd qualify for, and if there's not, I'll tell you. No identity info, no pressure. Two minutes max. Sound fair?", quality: 'best', response: "Two minutes. And no Medicare number?", coaching: "Acknowledged her exact concern (no gaslighting), explicitly addressed identity-info anxiety ('I'm not asking for any of that'), kept the filter promise. The 'two minutes max' time-cap lowers commitment. Margaret's defenses softened because you mirrored her language and didn't argue. Tonality: calm and slow — eager fails here." },
               { id: 'mg-c-2', text: "Margaret, I'm not a scammer. I'm calling about a real benefit you may qualify for that could save you thousands.", quality: 'off-rail', response: "That's exactly what a scammer would say. Goodbye.", coaching: "Defending against the scam accusation directly is what scammers do. Acknowledge her instinct ('I get it — I would be too') instead of arguing. Once you said 'save you thousands' you sounded like the previous 3 callers." },
-              { id: 'mg-c-3', text: "I just need to verify your full name and date of birth to confirm we're talking to the right person.", quality: 'off-rail', response: "I literally just told you I'm not giving you any of that. Click.", coaching: "She told you exactly what she wouldn't share, and your first move was to ask for it. This is the fastest possible hang-up trigger on a skeptical brokered lead." },
+              { id: 'mg-c-3', text: "I just need to verify your full name and date of birth to confirm we're talking to the right person.", quality: 'off-rail', response: "I literally just told you I'm not giving you any of that. Click.", coaching: "She told you exactly what she wouldn't share, and your first move was to ask for it. This is the fastest possible hang-up trigger on a skeptical general benefit inbound lead." },
               { id: 'mg-c-4', text: "Yeah, I get that. I promise I'm legitimate. Want me to walk you through what I do?", quality: 'good', response: "Fine, two minutes.", coaching: "Acknowledged her concern but didn't address the SPECIFIC trigger (identity info). 'I promise I'm legitimate' is what every caller says. The filter promise + explicit no-identity-info is what differentiates you. Functional opener but missing the trust-anchor specificity." },
             ],
           },
@@ -1341,7 +1341,7 @@
             prospectLine: "It's just me here. My daughter Emily calls every Sunday but she's got her own life — three kids, husband's career, all that. I don't want to be a burden on her.",
             choices: [
               { id: 'mg-pa-1', text: "Yeah, that makes sense — being a burden on adult kids is something most folks tell me they really don't want. Quick hypothetical — if you ever needed care for a stretch, say after a fall or surgery, would you prefer to stay in your own home with care coming to you, or would you rather go into a facility for that period?", quality: 'best', response: "Stay home, definitely. I'd hate going into a facility. And honestly, I'd hate Emily having to come fly in from Boston to take care of me — she'd do it but it would mess up her family.", coaching: "Mirrored her exact language ('burden') AND deployed the preference question. She articulated home preference AND the family-burden anchor in one answer. The fact that Emily would 'have to fly in from Boston' is gold for Stage 4 — concrete consequence in her own words." },
-              { id: 'mg-pa-2', text: "Have you thought about getting hospital indemnity insurance?", quality: 'off-rail', response: "What does that have to do with anything? I called about Medicare benefits.", coaching: "Wrong product pivot. Margaret is a Type 2 brokered lead — the strategy is HHC+Rx. HI on a brokered call is the bait-and-switch you're trying to avoid. Stay disciplined." },
+              { id: 'mg-pa-2', text: "Have you thought about getting hospital indemnity insurance?", quality: 'off-rail', response: "What does that have to do with anything? I called about Medicare benefits.", coaching: "Wrong product pivot. Margaret is a Type 2 general benefit inbound lead — the strategy is HHC+Rx. HI on a general benefit inbound call is the bait-and-switch you're trying to avoid. Stay disciplined." },
               { id: 'mg-pa-3', text: "Out of curiosity — have you ever known someone who needed home care for an extended time? What did that look like for them?", quality: 'better', response: "My friend Patricia — she had a stroke about two years ago. Her kids took turns flying in from across the country to help. It was a mess for everyone.", coaching: "Past-experience question surfaced a powerful anchor (Patricia, kids flying in). Slightly less efficient than the preference question because Margaret already volunteered the burden anchor in the prospect line. With Margaret, the preference question loops her own concern back to her — even higher leverage." },
               { id: 'mg-pa-4', text: "How are you doing financially? Do you have savings set aside?", quality: 'off-rail', response: "Why are you asking me about my finances? That's none of your business.", coaching: "Way too direct on a skeptical/isolated prospect. Money questions need to come AFTER the cost-of-care reveal, not as a cold ask. Asked here, it sounds like prep for fraud." },
             ],
@@ -1367,7 +1367,7 @@
         },
       },
 
-      // ============= DONALD — BROKERED TYPE 2 (graceful disqualification) ============
+      // ============= DONALD — GENERAL BENEFIT INBOUND TYPE 2 (graceful disqualification) ============
       {
         id: 'donald',
         name: 'Donald',
@@ -1379,7 +1379,7 @@
         familyDynamic: 'Lives with wife Karen (66); both healthy and active; kids grown, out of state',
         idealFit: 'NOT A FIT — graceful disqualification. Tests the discipline to walk away.',
         difficulty: 'CRITICAL pedagogical scenario. Tests the discipline to honestly disqualify when math won\'t work. Most agents will instinctively keep pushing or pivot to HI as a face-saver — both are wrong. The right answer is graceful exit.',
-        summary: 'Brokered general-benefits inbound lead. Donald is a healthy 67-year-old who takes ZERO regular prescriptions. The HHC+Rx math fundamentally won\'t work for him. Pedagogically critical scenario: tests the agent\'s discipline to disqualify HONESTLY rather than push or pivot to HI. The "best" choice at every stage reinforces the graceful exit. The "off-rails" are the temptations agents will feel — keep pushing, dig for "real reason," pivot to HI. Most agents will fight this scenario emotionally because hanging up early FEELS like wasting a $40 lead. The training has to teach why disqualification discipline closes more total sales/agent-hour than pushing non-fits.',
+        summary: 'General benefit inbound lead. Donald is a healthy 67-year-old who takes ZERO regular prescriptions. The HHC+Rx math fundamentally won\'t work for him. Pedagogically critical scenario: tests the agent\'s discipline to disqualify HONESTLY rather than push or pivot to HI. The "best" choice at every stage reinforces the graceful exit. The "off-rails" are the temptations agents will feel — keep pushing, dig for "real reason," pivot to HI. Most agents will fight this scenario emotionally because hanging up early FEELS like wasting a $40 lead. The training has to teach why disqualification discipline closes more total sales/agent-hour than pushing non-fits.',
         opening: "Yeah, I think I clicked something on Facebook about Medicare benefits. I'm not really sure what's available — figured I'd just see what's out there.",
         stages: {
           Connection: {
@@ -1388,7 +1388,7 @@
               { id: 'dn-c-1', text: "Hi Donald, thanks for reaching out about Medicare benefits. I'm [agent] with Clear Path Coverage. My job's pretty simple — I'll ask you a couple of quick questions to see if there's a benefit here you'd qualify for. If there is, I'll walk you through it; if not, I'll just tell you straight. Sound fair?", quality: 'best', response: "Yeah, sounds reasonable.", coaching: "Opener C verbatim. Identity + filter promise + permission. The filter promise is critical for Donald — you're going to need to disqualify him in 60 seconds, and the trust-anchor ('if not, I'll tell you straight') is the discipline that makes the disqualification graceful instead of jarring." },
               { id: 'dn-c-2', text: "Donald, I'm so glad you called! There's a fantastic benefit I want to walk you through.", quality: 'off-rail', response: "Oh good, what is it?", coaching: "You just promised a benefit before doing any qualification. When the math doesn't work for him in 60 seconds, you'll have to walk back from this — destroying your credibility AND likely making him angry. The filter promise is what allows for honest disqualification later." },
               { id: 'dn-c-3', text: "Hi Donald. I'm with Clear Path. Want to hear about what we offer?", quality: 'good', response: "Sure.", coaching: "Identity ✓ but no filter promise (the trust anchor that makes graceful disqualification possible). When you have to tell Donald 'this isn't a fit,' that lands much harder without the upfront promise. Functional but slightly under-equipped for what's coming." },
-              { id: 'dn-c-4', text: "First, can I confirm your full name, date of birth, and Social Security number?", quality: 'off-rail', response: "Whoa, no way. I'm hanging up.", coaching: "ID-info request before trust = scammer pattern. Brokered seniors are warned about this. Trust first, identity at application stage with the Advocate." },
+              { id: 'dn-c-4', text: "First, can I confirm your full name, date of birth, and Social Security number?", quality: 'off-rail', response: "Whoa, no way. I'm hanging up.", coaching: "ID-info request before trust = scammer pattern. General benefit inbound prospects are warned about this. Trust first, identity at application stage with the Advocate." },
             ],
           },
           Situation: {
@@ -1396,16 +1396,16 @@
             choices: [
               { id: 'dn-s-1', text: "That's great. And about how many prescriptions are you taking each month?", quality: 'best', response: "Honestly, none. Just a multivitamin. I've been lucky on the health front.", coaching: "Triple-duty qualifier. Donald just disqualified himself for the HHC+Rx math. NOW the discipline question kicks in: do you keep pushing, or do you exit gracefully? The 'best' answer at the next stage tests this directly." },
               { id: 'dn-s-2', text: "Are you sure? No blood pressure, cholesterol, anything? Most folks your age are on at least one medication.", quality: 'off-rail', response: "I just told you, none. Why are you trying to convince me I take medications?", coaching: "Don't argue with what he told you. Donald gave you a clean answer — he doesn't take prescriptions. Pushing for a different answer = digging for a 'real reason' to keep selling, which is exactly the bait-and-switch we're trying to avoid. Honor his answer." },
-              { id: 'dn-s-3', text: "Okay, well let me tell you about a hospital indemnity policy we offer instead — it's perfect for healthy folks who want protection.", quality: 'off-rail', response: "Wait, I called about Medicare benefits, not hospital insurance. Why are you trying to sell me a different product?", coaching: "THIS IS THE TRAP. Pivoting to HI when HHC+Rx doesn't fit is the bait-and-switch the entire Type 2 strategy is designed to avoid. Donald called for general Medicare benefits info, not hospital indemnity. HI on a brokered call without a hospital-pain anchor IS the trust break. The discipline is to disqualify, not pivot." },
-              { id: 'dn-s-4', text: "And do you have family nearby who'd help out if you needed care for a stretch?", quality: 'good', response: "Yeah, my wife. Kids are out of state. Why?", coaching: "Functional triple-duty question, but you skipped the prescription qualifier. Without confirming 4+ meds, you can't know if the math will work. Order matters: Rx qualifier FIRST on a brokered call because it's the fastest disqualification gate." },
+              { id: 'dn-s-3', text: "Okay, well let me tell you about a hospital indemnity policy we offer instead — it's perfect for healthy folks who want protection.", quality: 'off-rail', response: "Wait, I called about Medicare benefits, not hospital insurance. Why are you trying to sell me a different product?", coaching: "THIS IS THE TRAP. Pivoting to HI when HHC+Rx doesn't fit is the bait-and-switch the entire Type 2 strategy is designed to avoid. Donald called for general Medicare benefits info, not hospital indemnity. HI on a general benefit inbound call without a hospital-pain anchor IS the trust break. The discipline is to disqualify, not pivot." },
+              { id: 'dn-s-4', text: "And do you have family nearby who'd help out if you needed care for a stretch?", quality: 'good', response: "Yeah, my wife. Kids are out of state. Why?", coaching: "Functional triple-duty question, but you skipped the prescription qualifier. Without confirming 4+ meds, you can't know if the math will work. Order matters: Rx qualifier FIRST on a general benefit inbound call because it's the fastest disqualification gate." },
             ],
           },
           ProblemAwareness: {
             prospectLine: "I'm in good shape. Wife's healthy. We just want to know what benefits are out there in case we need anything down the road.",
             choices: [
               { id: 'dn-pa-1', text: "Donald, I want to be straight with you — the benefit I help folks with is a home healthcare plan that has a prescription reimbursement built into it. Honestly, for someone like you who isn't taking prescriptions regularly, the math on this one doesn't really work in your favor. The prescription benefit is what makes this plan affordable, and without that, you'd be paying full premium for a product you don't really need yet. I'm not going to push something that doesn't fit. Is there anything else Medicare-related I might be able to point you toward?", quality: 'best', response: "Wow, that's actually really straightforward. Honestly, I appreciate that. Most callers don't tell me when something isn't right for me. Yeah, if you know of anything else, I'd love to hear it.", coaching: "GRACEFUL DISQUALIFICATION — the most important move in the entire Type 2 framework. Donald disqualified himself two questions ago; the discipline is to honor that. Notice what this does: (1) trust EARNED by the honesty (he just said 'most callers don't do that'), (2) door opens for future contact (he might come back when his health changes), (3) you free up time to call the next prospect who DOES fit. NEPQ doctrine: the more you disqualify, the more legitimate you seem. Math: at $40/lead, 7-8 min/closer + 2-3 min/dispose, agents close more total sales/hour with disciplined disqualification than with pushing non-fits." },
-              { id: 'dn-pa-2', text: "Well, even if you don't take prescriptions, the home healthcare benefits are really valuable. Have you thought about needing care later in life?", quality: 'off-rail', response: "I told you I'm healthy. Why are you trying to scare me into buying something?", coaching: "Pushing fear-of-care on a healthy 67-year-old who said 'I'm in good shape' = exactly the pressure pattern brokered seniors hang up on. Donald's answer told you the math doesn't fit; honor that. Pushing past it damages your reputation AND eats agent-hours that could have gone to a fit prospect." },
-              { id: 'dn-pa-3', text: "What about hospital coverage? Have you thought about what would happen if you got hospitalized?", quality: 'off-rail', response: "I called about Medicare benefits, not hospital insurance. Stop trying to sell me different things.", coaching: "PIVOTING TO HI IS THE BIGGEST TRAP IN THE TYPE 2 PLAYBOOK. Donald has zero hospital-pain anchor in this conversation — he's healthy, just hiked Utah. Pivoting to HI on a brokered lead without that anchor IS the bait-and-switch. The discipline that makes the entire Type 2 strategy work is: HHC+Rx fits or it doesn't. If it doesn't, exit." },
+              { id: 'dn-pa-2', text: "Well, even if you don't take prescriptions, the home healthcare benefits are really valuable. Have you thought about needing care later in life?", quality: 'off-rail', response: "I told you I'm healthy. Why are you trying to scare me into buying something?", coaching: "Pushing fear-of-care on a healthy 67-year-old who said 'I'm in good shape' = exactly the pressure pattern general benefit inbound prospects hang up on. Donald's answer told you the math doesn't fit; honor that. Pushing past it damages your reputation AND eats agent-hours that could have gone to a fit prospect." },
+              { id: 'dn-pa-3', text: "What about hospital coverage? Have you thought about what would happen if you got hospitalized?", quality: 'off-rail', response: "I called about Medicare benefits, not hospital insurance. Stop trying to sell me different things.", coaching: "PIVOTING TO HI IS THE BIGGEST TRAP IN THE TYPE 2 PLAYBOOK. Donald has zero hospital-pain anchor in this conversation — he's healthy, just hiked Utah. Pivoting to HI on a general benefit inbound lead without that anchor IS the bait-and-switch. The discipline that makes the entire Type 2 strategy work is: HHC+Rx fits or it doesn't. If it doesn't, exit." },
               { id: 'dn-pa-4', text: "What's been on your mind lately about health and aging?", quality: 'off-rail', response: "Nothing really. Wife and I are doing fine. Why are you fishing?", coaching: "Vague open-ended question with no purpose other than to find a hook to keep selling. Donald hears it as fishing because that's what it is. Either there's a real product fit or there isn't. Discipline says exit." },
             ],
           },
@@ -1413,7 +1413,7 @@
             prospectLine: "Yeah, anything else you can point me to would be appreciated.",
             choices: [
               { id: 'dn-sa-1', text: "Yeah, of course. Honestly, the best thing for someone in your situation is just making sure you understand what your current MA plan covers — your dental, vision, OTC benefit, fitness benefits, things like that. Aetna usually has a member benefits hotline on the back of your card that walks you through what you have. It's free. If your situation changes — say you start needing regular medications, or your wife does — give us a call back and we can revisit. Sound fair?", quality: 'best', response: "That's really helpful, thank you. I'll check that out. And honestly, I might call back if things change. Appreciate the honesty.", coaching: "Genuine helpful exit — points him toward his actual MA member benefits resource (which DOES exist and is genuinely useful). Leaves the door open for future contact. This is what builds reputation. A senior who feels honestly served by a sales call is the senior who tells five friends about you. Reputation is the long game; this is how you play it." },
-              { id: 'dn-sa-2', text: "Actually, hold on — let me ask one more question. Are you sure you don't want to look at hospital indemnity? It's a great supplement.", quality: 'off-rail', response: "I literally just told you twice I don't want hospital insurance. Why are you still pitching?", coaching: "You promised an honest exit and broke it. The 'one more question' to slip in another pitch is the move that destroys all the trust you just built. Brokered seniors WATCH for this — they've been victims of it before." },
+              { id: 'dn-sa-2', text: "Actually, hold on — let me ask one more question. Are you sure you don't want to look at hospital indemnity? It's a great supplement.", quality: 'off-rail', response: "I literally just told you twice I don't want hospital insurance. Why are you still pitching?", coaching: "You promised an honest exit and broke it. The 'one more question' to slip in another pitch is the move that destroys all the trust you just built. General benefit inbound prospects WATCH for this — they've been victims of it before." },
               { id: 'dn-sa-3', text: "Well, can I get your email so I can send you information for if your situation changes?", quality: 'off-rail', response: "I'm not giving you my email. We're done here. Goodbye.", coaching: "Asking for contact info after an exit conversation feels like a callback hook. Donald's defensive posture from earlier comes right back. If he wants to call back, give him your number to reach you — don't try to capture his." },
               { id: 'dn-sa-4', text: "Okay, sounds good. Thanks for your time.", quality: 'good', response: "You too.", coaching: "Polite exit but missed the chance to genuinely help. Pointing him to his MA member-benefits hotline is a 30-second move that creates a brand impression Donald will remember. Exits are reputation-building moments; spend the 30 seconds." },
             ],
@@ -1421,7 +1421,7 @@
           Consequence: {
             prospectLine: "Okay thanks. Have a good day.",
             choices: [
-              { id: 'dn-co-1', text: "You too, Donald. Take care.", quality: 'best', response: "[call ends — Donald hangs up with positive impression]", coaching: "Clean honest exit. Total call time ~3 minutes. Outcome: no sale, but a positive brand impression and a future-callback prospect if his situation changes. Lead-cost economics: at $40/lead and ~3 min/dispose, an agent who handles 20 brokered leads/day with this discipline can spend the saved time on the 6-8 leads that DO fit, closing more total sales than an agent who burns 10-12 minutes pushing each non-fit. Discipline = throughput = revenue." },
+              { id: 'dn-co-1', text: "You too, Donald. Take care.", quality: 'best', response: "[call ends — Donald hangs up with positive impression]", coaching: "Clean honest exit. Total call time ~3 minutes. Outcome: no sale, but a positive brand impression and a future-callback prospect if his situation changes. Lead-cost economics: at $40/lead and ~3 min/dispose, an agent who handles 20 general benefit inbound leads/day with this discipline can spend the saved time on the 6-8 leads that DO fit, closing more total sales than an agent who burns 10-12 minutes pushing each non-fit. Discipline = throughput = revenue." },
               { id: 'dn-co-2', text: "Wait — before you go, are you absolutely sure I can't help you with anything? We have other products...", quality: 'off-rail', response: "Goodbye.", coaching: "Last-ditch pitch attempts after a clean exit are the move that cements your reputation as 'just another vendor.' The graceful exit IS the close — for next time. Burn the bridge here and the next call from Clear Path goes straight to voicemail." },
               { id: 'dn-co-3', text: "Quick — do you want to give me your wife's number? Maybe she'd be a fit.", quality: 'off-rail', response: "What? No, absolutely not. Don't ever call this number again.", coaching: "Asking for a referral after a non-fit call, especially involving a family member, is a hard hang-up trigger. Referrals come AFTER successful sales relationships, not after disqualification calls." },
               { id: 'dn-co-4', text: "Sounds good. Thanks for the call.", quality: 'good', response: "Yep, bye.", coaching: "Polite generic exit. Functional. Co-1 has slightly better closer-energy ('Take care' is warmer than 'Thanks for the call') — small detail but warm exits are remembered." },
@@ -1518,9 +1518,9 @@
           // Standalone HHC-specific scenarios (Type 3) — internal marketing leads
           { id: '3.6', title: 'Scenario 6 — Helen (standalone SEP, Rx-led)',      estimatedMin: 30, type: 'scenario', built: true },
           { id: '3.7', title: 'Scenario 7 — Walter (standalone family-led)',      estimatedMin: 30, type: 'scenario', built: true },
-          // Brokered general-benefits scenarios (Type 2) — aggregated inbound leads
-          { id: '3.8', title: 'Scenario 8 — Carl (brokered, full happy path)',    estimatedMin: 30, type: 'scenario', built: true },
-          { id: '3.9', title: 'Scenario 9 — Margaret (brokered, skeptical+alone)',estimatedMin: 30, type: 'scenario', built: true },
+          // General benefit inbound scenarios (Type 2) — aggregated inbound leads
+          { id: '3.8', title: 'Scenario 8 — Carl (general benefit inbound, full happy path)',    estimatedMin: 30, type: 'scenario', built: true },
+          { id: '3.9', title: 'Scenario 9 — Margaret (general benefit inbound, skeptical+alone)',estimatedMin: 30, type: 'scenario', built: true },
           { id: '3.10', title: 'Scenario 10 — Donald (graceful disqualification)', estimatedMin: 20, type: 'scenario', built: true },
           // Drill
           { id: '3.11', title: 'Objection Drill Mode',                            estimatedMin: 30, type: 'drill',    built: true },
@@ -1920,7 +1920,7 @@
         difficulty: 'CAPSTONE — must score 6.0+ of 8.0 to pass',
       },
       carl: {
-        teaches: "Run the brokered/general-benefits opener (Type 2 lead). Practice triple-duty Stage 2 questions, the preference question (home vs facility) as Stage 3 opener, family-burden Consequence question, and the math pre-frame. Bread-and-butter Type 2 call most brokered inbound contacts will look like.",
+        teaches: "Run the general benefit inbound opener (Type 2 lead). Practice triple-duty Stage 2 questions, the preference question (home vs facility) as Stage 3 opener, family-burden Consequence question, and the math pre-frame. Bread-and-butter Type 2 call most general benefit inbound contacts will look like.",
         difficulty: 'Tests the full Type 2 NEPQ flow',
       },
       margaret: {
@@ -3582,7 +3582,7 @@
                           const groupLabel = (
                             s.id === '3.1' ? 'CROSS-SELL · after MA enrollment' :
                             s.id === '3.6' ? 'STANDALONE · HHC-specific lead' :
-                            s.id === '3.8' ? 'BROKERED · general-benefits inbound' :
+                            s.id === '3.8' ? 'GENERAL BENEFIT INBOUND' :
                             s.id === '3.11' ? 'DRILL · objection practice' :
                             null
                           );
@@ -3717,7 +3717,7 @@
               </li>
               <li className="flex gap-4">
                 <span className="flex-shrink-0 w-14 text-accent font-heading font-semibold tabular-nums">Part 3</span>
-                <span><span className="font-heading font-semibold">Practice</span> — drilled scenarios (10 of them, covering cross-sell, standalone HHC, and brokered general-benefits leads) plus objection drill mode. The reps that build confidence. <span className="text-mid-blue">~5 hours, split however you like.</span></span>
+                <span><span className="font-heading font-semibold">Practice</span> — drilled scenarios (10 of them, covering cross-sell, standalone HHC, and general benefit inbound leads) plus objection drill mode. The reps that build confidence. <span className="text-mid-blue">~5 hours, split however you like.</span></span>
               </li>
               <li className="flex gap-4">
                 <span className="flex-shrink-0 w-14 text-accent font-heading font-semibold tabular-nums">Part 4</span>
@@ -5663,7 +5663,7 @@
           </h1>
           <p className="text-lg text-text leading-relaxed">
             Theory has its limits. This section walks you through three complete sales calls — one cross-sell after an MA
-            enrollment, one standalone ancillary lead, and one brokered general-benefits inbound — annotated stage-by-stage
+            enrollment, one standalone ancillary lead, and one general benefit inbound — annotated stage-by-stage
             so you can see exactly how the NEPQ moves and the 5-stage flow actually sound on a real call across the three
             call archetypes you'll see most.
           </p>
@@ -5916,9 +5916,9 @@
             </div>
           </div>
 
-          {/* CALL 3: brokered general benefits */}
+          {/* CALL 3: general benefit inbound */}
           <div>
-            <h2 className="font-heading font-bold text-2xl text-secondary mb-3">Call 3 · Brokered general-benefits lead</h2>
+            <h2 className="font-heading font-bold text-2xl text-secondary mb-3">Call 3 · General benefit inbound lead</h2>
             <p className="text-text text-sm leading-relaxed mb-4">
               <span className="font-heading font-semibold">Setup:</span> Carl (71, GA) called in after his wife saw a Medicare-benefits
               ad on a publisher site. He&apos;s on a Humana MA plan, takes 4 medications including Eliquis, has a daughter (Jessica)
@@ -5940,7 +5940,7 @@
               <TranscriptLine
                 speaker="Agent"
                 text={`"Yeah, I get that. Let's see if this one's actually worth your time."`}
-                note="Acknowledged the fatigue without arguing. Microscopic move that says 'I'm not desperate to keep you on the phone' — exactly what brokered seniors want to hear."
+                note="Acknowledged the fatigue without arguing. Microscopic move that says 'I'm not desperate to keep you on the phone' — exactly what general benefit inbound prospects want to hear."
               />
             </div>
 
@@ -6074,7 +6074,7 @@
                 <li>• <span className="font-heading font-semibold">Preference question opened Stage 3.</span> Carl articulated "stay home" in his own words. Past-experience anchor (father-in-law) surfaced organically.</li>
                 <li>• <span className="font-heading font-semibold">Math pre-frame mitigated sticker shock.</span> "Bear with me, gross first then the math that matters" gave Carl permission to absorb $50-65/month before the $3-5 net cost landed.</li>
                 <li>• <span className="font-heading font-semibold">Carl closed himself.</span> The "why do you feel that way?" question got him to articulate Jessica + the math in his own words.</li>
-                <li>• <span className="font-heading font-semibold">Total call time: ~7-8 minutes.</span> Brokered Type 2 calls land cleanly in this range when the discipline is right. Fit prospects close in 7-8 minutes; non-fits dispose in 2-3.</li>
+                <li>• <span className="font-heading font-semibold">Total call time: ~7-8 minutes.</span> General benefit inbound Type 2 calls land cleanly in this range when the discipline is right. Fit prospects close in 7-8 minutes; non-fits dispose in 2-3.</li>
               </ul>
             </div>
           </div>
@@ -6089,7 +6089,7 @@
               <li><span className="font-heading font-semibold">5.</span> Each opener earned permission BEFORE asking discovery questions. The Status Frame is non-negotiable across all three call types.</li>
             </ul>
             <p className="mt-4 text-xs text-mid-blue italic">
-              Up next: the Sales Script with the triple-opener structure (cross-sell, standalone HHC, brokered) laid out for you to memorize.
+              Up next: the Sales Script with the triple-opener structure (cross-sell, standalone HHC, general benefit inbound) laid out for you to memorize.
             </p>
           </div>
         </div>
@@ -6125,7 +6125,7 @@
           </h1>
           <p className="text-lg text-text leading-relaxed">
             This is the script — verbatim where it matters, flexible where it doesn't. Three openers cover the three call
-            archetypes you'll see (cross-sell on an MA call; specific HHC lead from internal marketing; brokered general-benefits
+            archetypes you'll see (cross-sell on an MA call; specific HHC lead from internal marketing; general benefit inbound
             lead). All three converge into a shared body. Memorize the bracketed verbatim moves. Improvise the rest from your
             prospect's actual answers.
           </p>
@@ -6157,7 +6157,7 @@
               onClick={() => setOpener('brokered')}
               className={`px-4 py-2 rounded-md text-sm font-heading font-semibold transition ${opener === 'brokered' ? 'bg-accent text-deep-navy' : 'text-mid-blue hover:text-secondary'}`}
             >
-              Opener C · Brokered / general benefits
+              Opener C · General benefit inbound
             </button>
           </div>
 
@@ -6201,19 +6201,19 @@
 
           {opener === 'brokered' && (
             <div>
-              <h2 className="font-heading font-bold text-xl text-secondary mb-2">Opener C — Brokered / general senior benefits</h2>
+              <h2 className="font-heading font-bold text-xl text-secondary mb-2">Opener C — General benefit inbound</h2>
               <p className="text-text text-sm leading-relaxed mb-4">
-                Use this on inbound calls from brokered or aggregated senior-benefits leads — the prospect was told by some
+                Use this on general benefit inbound calls from aggregated senior-benefits leads — the prospect was told by some
                 publisher that they "might qualify for benefits" and called in without much context. They don't know who
                 you are or what the call is about. They've likely already been called by 4-6 other vendors today. Trust
                 deficit is huge; patience is short.
               </p>
               <ScriptBlock
-                stage="Connection (brokered)"
+                stage="Connection (general benefit inbound)"
                 lines={[
                   {
                     text: `"Hi [first name], thanks for reaching out about Medicare benefits. I'm [agent first name] with Clear Path Coverage. My job's pretty simple — I'll ask you a couple of quick questions to see if there's a benefit here you'd qualify for. If there is, I'll walk you through it; if not, I'll just tell you straight. Sound fair?"`,
-                    note: 'No product mention. No price. Filter promise + permission. The "I\'ll see what you qualify for" framing matches the brokered-lead\'s mental model (they were told they might qualify) — but anchor "qualify" to product-fit, not government-entitlement.',
+                    note: 'No product mention. No price. Filter promise + permission. The "I\'ll see what you qualify for" framing matches the general benefit inbound lead\'s mental model (they were told they might qualify) — but anchor "qualify" to product-fit, not government-entitlement.',
                   },
                 ]}
               />
@@ -6221,7 +6221,7 @@
               <div className="bg-amber-50 border-l-4 border-amber-400 pl-5 py-3 mt-4 mb-4">
                 <div className="text-[10px] uppercase tracking-wider text-secondary font-heading font-semibold mb-1">Recovery script — "I never reached out about anything"</div>
                 <p className="text-sm text-text leading-relaxed mb-2">
-                  Brokered leads sometimes deny they signed up — they clicked an ad, forgot, or have already been called by
+                  General benefit inbound leads sometimes deny they signed up — they clicked an ad, forgot, or have already been called by
                   4 other vendors today and conflate them. Don't gaslight them ("you DID reach out"). Acknowledge honestly
                   and ask for two minutes:
                 </p>
@@ -6234,11 +6234,11 @@
               </div>
 
               <div className="bg-light-cyan/20 border-l-4 border-accent pl-5 py-3 mt-4 mb-4">
-                <div className="text-[10px] uppercase tracking-wider text-mid-blue font-heading font-semibold mb-1">Frame discipline (brokered)</div>
+                <div className="text-[10px] uppercase tracking-wider text-mid-blue font-heading font-semibold mb-1">Frame discipline (general benefit inbound)</div>
                 <ul className="text-sm text-text leading-relaxed space-y-1">
                   <li>• <span className="font-heading font-semibold">Don't mention the product yet.</span> Status frame only — identity, filter promise, permission. The product reveal happens at Presentation, after they've articulated need.</li>
                   <li>• <span className="font-heading font-semibold">Don't quote a price.</span> Premium varies by state, age, gender, benefit period. Quoting "$3.50/month" upfront sets up a credibility break if the actual quote runs higher.</li>
-                  <li>• <span className="font-heading font-semibold">Tonality is everything.</span> Brokered seniors hang up on eager-sounding agents instinctively — they've been trained to. Calm, curious, slightly slower than feels natural. Pause after their answers.</li>
+                  <li>• <span className="font-heading font-semibold">Tonality is everything.</span> General benefit inbound prospects hang up on eager-sounding agents instinctively — they've been trained to. Calm, curious, slightly slower than feels natural. Pause after their answers.</li>
                   <li>• <span className="font-heading font-semibold">Disqualify fast and graceful.</span> If they don't take prescriptions or aren't independent, this isn't a fit. End the call honestly. Pushing non-fits = lower close rate AND fewer total sales per agent-hour.</li>
                 </ul>
               </div>
@@ -6421,13 +6421,13 @@
         { category: 'Method', name: 'I\'ll-tell-you-if-it\'s-not-a-fit frame', deploy: 'Stage 1 · Connection · standalone', text: '"I help folks figure out if there\'s a fit, and if it\'s not, I\'ll just tell you. Want to walk through your situation for a couple minutes and see?"', research: 'Honest-broker positioning builds trust faster than enthusiastic positioning with senior demographic.' },
         { category: 'Method', name: 'Loop-back frame', deploy: 'Stage 5 · if hesitation', text: '"Totally understand. Quick question — if you did end up needing help with this, what would that mean for the rest of your year financially?"', research: 'NEPQ consequence question used as loop-back rather than as escalation; reduces pressure feel while resurfacing urgency.' },
 
-        // Brokered / general-benefits frames (Type 2 lead)
-        { category: 'Brokered', name: 'Brokered Status Frame opener', deploy: 'Stage 1 · Connection · brokered lead', text: '"Hi [name], thanks for reaching out about Medicare benefits. I\'m [agent first] with Clear Path Coverage. My job\'s pretty simple — I\'ll ask you a couple of quick questions to see if there\'s a benefit here you\'d qualify for. If there is, I\'ll walk you through it; if not, I\'ll just tell you straight. Sound fair?"', research: 'NEPQ Status Frame for confused/aggregated leads. Mirrors brokered-lead mental model ("you might qualify"). No product mention, no price quote — just identity + filter promise + permission. Tonality matters as much as words: calm, curious, slightly slower than feels natural.' },
-        { category: 'Brokered', name: '"I never reached out" recovery', deploy: 'Stage 1 · Connection · if prospect denies signup', text: '"Oh, fair — your information was passed to us by a Medicare benefits service. Sometimes folks click on something and don\'t think much of it. Either way, since you\'ve got a moment — is it okay if I ask a couple quick questions to see if there\'s anything here that fits? Two minutes max, and if there\'s nothing, I\'ll get out of your hair."', research: 'Brokered leads sometimes deny signup (clicked an ad, forgot, conflated with other vendor calls). Don\'t gaslight ("you DID reach out") — acknowledge honestly and ask for two minutes. Preserves trust on a call where trust is already at zero.' },
-        { category: 'Brokered', name: 'Prescription qualifier as math-prep', deploy: 'Stage 2 · Situation · brokered lead', text: '"Got it. And about how many prescriptions are you taking each month?"', research: 'Reframe: the prescription question is a QUALIFIER and a MATH question, not a pain probe. Asking "how many" (presumptive, warm) beats "are you taking any?" (interrogative, gating). The number tells you immediately if 4+ math will work. 0-1 → graceful disqualification. 2+ → continue.' },
-        { category: 'Brokered', name: 'Family-presence Situation Q', deploy: 'Stage 2 · Situation · brokered lead', text: '"Got it. And do you have family nearby who\'d help out if you needed care for a stretch?"', research: 'Triple-duty question: gathers family context (data), shows interest in their situation (rapport), seeds HHC need-build (caregiver burden later). Use the answer ("daughter, hour away") at Presentation: "$3,500 directly to your daughter."' },
-        { category: 'Brokered', name: 'Independence light-knockout', deploy: 'Stage 2 · Situation · brokered lead', text: '"And you\'re still living independently in your own place, right?"', research: 'Confirms HHC eligibility (currently independent). Phrased conversationally, not interrogatively. Hard medical knockouts go to the application stage with the Advocate, not here.' },
-        { category: 'Brokered', name: 'Graceful disqualification', deploy: 'Stage 2 · if prospect doesn\'t fit', text: '"Honestly, if you\'re not taking 4 or more prescriptions regularly, this benefit isn\'t going to be the right fit for you — the math just doesn\'t work in your favor. I\'m not going to waste your time pretending it does. Is there anything else Medicare-related I could point you toward?"', research: 'NEPQ doctrine: the more you disqualify, the more legitimate you seem. Wear it as a badge. Lead-cost economics actually favor fast disqualification: agents close more total sales/hour with disciplined dispose vs. pushing non-fits.' },
+        // General benefit inbound frames (Type 2 lead)
+        { category: 'General Benefit Inbound', name: 'Status Frame opener (general benefit inbound)', deploy: 'Stage 1 · Connection · general benefit inbound lead', text: '"Hi [name], thanks for reaching out about Medicare benefits. I\'m [agent first] with Clear Path Coverage. My job\'s pretty simple — I\'ll ask you a couple of quick questions to see if there\'s a benefit here you\'d qualify for. If there is, I\'ll walk you through it; if not, I\'ll just tell you straight. Sound fair?"', research: 'NEPQ Status Frame for confused/aggregated leads. Mirrors general benefit inbound lead mental model ("you might qualify"). No product mention, no price quote — just identity + filter promise + permission. Tonality matters as much as words: calm, curious, slightly slower than feels natural.' },
+        { category: 'General Benefit Inbound', name: '"I never reached out" recovery', deploy: 'Stage 1 · Connection · if prospect denies signup', text: '"Oh, fair — your information was passed to us by a Medicare benefits service. Sometimes folks click on something and don\'t think much of it. Either way, since you\'ve got a moment — is it okay if I ask a couple quick questions to see if there\'s anything here that fits? Two minutes max, and if there\'s nothing, I\'ll get out of your hair."', research: 'General benefit inbound leads sometimes deny signup (clicked an ad, forgot, conflated with other vendor calls). Don\'t gaslight ("you DID reach out") — acknowledge honestly and ask for two minutes. Preserves trust on a call where trust is already at zero.' },
+        { category: 'General Benefit Inbound', name: 'Prescription qualifier as math-prep', deploy: 'Stage 2 · Situation · general benefit inbound lead', text: '"Got it. And about how many prescriptions are you taking each month?"', research: 'Reframe: the prescription question is a QUALIFIER and a MATH question, not a pain probe. Asking "how many" (presumptive, warm) beats "are you taking any?" (interrogative, gating). The number tells you immediately if 4+ math will work. 0-1 → graceful disqualification. 2+ → continue.' },
+        { category: 'General Benefit Inbound', name: 'Family-presence Situation Q', deploy: 'Stage 2 · Situation · general benefit inbound lead', text: '"Got it. And do you have family nearby who\'d help out if you needed care for a stretch?"', research: 'Triple-duty question: gathers family context (data), shows interest in their situation (rapport), seeds HHC need-build (caregiver burden later). Use the answer ("daughter, hour away") at Presentation: "$3,500 directly to your daughter."' },
+        { category: 'General Benefit Inbound', name: 'Independence light-knockout', deploy: 'Stage 2 · Situation · general benefit inbound lead', text: '"And you\'re still living independently in your own place, right?"', research: 'Confirms HHC eligibility (currently independent). Phrased conversationally, not interrogatively. Hard medical knockouts go to the application stage with the Advocate, not here.' },
+        { category: 'General Benefit Inbound', name: 'Graceful disqualification', deploy: 'Stage 2 · if prospect doesn\'t fit', text: '"Honestly, if you\'re not taking 4 or more prescriptions regularly, this benefit isn\'t going to be the right fit for you — the math just doesn\'t work in your favor. I\'m not going to waste your time pretending it does. Is there anything else Medicare-related I could point you toward?"', research: 'NEPQ doctrine: the more you disqualify, the more legitimate you seem. Wear it as a badge. Lead-cost economics actually favor fast disqualification: agents close more total sales/hour with disciplined dispose vs. pushing non-fits.' },
 
         // HHC Need-Build frames (Type 2 + standalone)
         { category: 'HHC', name: 'Preference question (home vs facility)', deploy: 'Stage 3 · Problem awareness · opener', text: '"Quick hypothetical for you — if you ever needed care for a stretch, say after a hospitalization, surgery, or just as you got older — would you prefer to stay in your own home and have home health care come to you, or go into a skilled nursing facility for that period?"', research: 'AARP: ~75-90% of seniors want to age in current home. Solution-Awareness question that gets prospect to articulate preference in their own words → self-persuasion / consistency principle. Highest-leverage opener for Stage 3.' },
@@ -6929,12 +6929,12 @@
           title: 'You completed Part 1: Foundation',
           recap: 'You now know what HI and HHC are, who they serve, why your prospect needs them, and the operational details of all three components (HI, HHC, prescription reimbursement).',
           nextHeader: 'Coming up in Part 2: Method',
-          nextBody: 'Now you\'ll learn how professional sellers actually move a prospect from "tell me more" to "let\'s apply." The NEPQ framework, the 5-stage call structure, annotated worked examples from real-style calls, and the triple-opener Sales Script (cross-sell pivot, standalone HHC lead, brokered general-benefits lead). Plus the curated pitch frame library organized by deploy moment.',
+          nextBody: 'Now you\'ll learn how professional sellers actually move a prospect from "tell me more" to "let\'s apply." The NEPQ framework, the 5-stage call structure, annotated worked examples from real-style calls, and the triple-opener Sales Script (cross-sell pivot, standalone HHC lead, general benefit inbound lead). Plus the curated pitch frame library organized by deploy moment.',
           continueLabel: 'Continue',
         },
         method: {
           title: 'You completed Part 2: Method',
-          recap: 'You now have the NEPQ framework, the 5-stage call flow, the triple-opener Sales Script (cross-sell, standalone HHC, brokered general-benefits), the math reframe, and a deployable pitch frame library. You can have the conversation now — what\'s left is the reps.',
+          recap: 'You now have the NEPQ framework, the 5-stage call flow, the triple-opener Sales Script (cross-sell, standalone HHC, general benefit inbound), the math reframe, and a deployable pitch frame library. You can have the conversation now — what\'s left is the reps.',
           nextHeader: 'Coming up in Part 3: Practice',
           nextBody: 'Drilling. Seven branching scenarios — five cross-sell personas (John, Mary, Bruce, Dorothy, Frank) and two standalone-lead personas (Helen, Walter). Plus the Objection Drill Mode for the 25 most common objections with random-draw + confidence-rating + compare-to-model. The reps are where confidence actually gets built.',
           continueLabel: 'Continue',
